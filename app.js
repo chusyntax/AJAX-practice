@@ -20,7 +20,7 @@ function getData(){
 
            //Then use a forEach loop since it is a JSON Array
 
-           for (var i in info){
+           for ( i = 0; i < 10; i++){
                jsonOutput += '<ul>' +
            '<li> ID:'+info[i].id+ '</li>' +
            '<li> Name:' +info[i].login+ '</li>' +
