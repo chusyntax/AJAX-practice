@@ -24,7 +24,7 @@ function getData(){
                jsonOutput += '<ul>' +
            '<li> ID:'+info[i].id+ '</li>' +
            '<li> Name:' +info[i].login+ '</li>' +
-           '<li> URL:'+info[i].url+ '</li>' +
+           '<li> URL:'+info[i].html_url+ '</li>' +
            '<li>'+'<img src="'+info[i].avatar_url+'" width="90" height="90">'+'</li>' +
            '</ul>'
            ;}
